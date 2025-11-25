@@ -188,7 +188,7 @@ HOME_HTML = """
             
             <div class="example">
                 <strong>Example Request:</strong>
-                <code>curl -X POST {{ base_url }}/predict \\
+                <code>curl -X POST "{{ base_url }}/predict" \\
   -H "Content-Type: application/json" \\
   -d '{"text": "The company reported strong quarterly earnings with revenue up 15%"}'</code>
             </div>
